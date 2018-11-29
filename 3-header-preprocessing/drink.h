@@ -1,0 +1,2 @@
+void drinkCola();
+void pourPepsi();
