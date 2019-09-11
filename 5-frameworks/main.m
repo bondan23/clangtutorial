@@ -4,6 +4,10 @@ int main() {
   NSLog(@"hello world");
 
   NSString *str = [@"foo " stringByAppendingString:@"bar"];
+  
   NSLog(@"yo %@", str);
+  
   return 0;
 }
+
+// clang -framework Foundation main.m

@@ -20,6 +20,7 @@
 // static library: libtool -dynamic a.o b.o c.o -o libkuda.dylib
 // clang -lkuda -L /path/to/libkuda.a x.o y.o
 // clang -I // includea header
+// ld main.o -L . -lSystem -lCalculatorDynamic
 
 int main() {
   printf("30 + 70 = %d\n", add(30, 70));

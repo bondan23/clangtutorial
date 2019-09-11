@@ -1,0 +1,10 @@
+{
+    "libstellar\/Gold.h" : {
+        "suffix" : "Gold.h",
+        "prefix" : "/Users/ba-00004195/Documents/SwiftPlayground/ClangTutorial/4-library/libstellar/source/"
+    },
+    "Gold.h" : {
+        "suffix" : "Gold.h",
+        "prefix" : "libstellar\/"
+    }
+}
