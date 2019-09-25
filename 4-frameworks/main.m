@@ -9,5 +9,3 @@ int main() {
   
   return 0;
 }
-
-// clang -framework Foundation main.m
