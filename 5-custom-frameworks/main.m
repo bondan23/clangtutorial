@@ -5,6 +5,3 @@ int main() {
   [coffeeMaker brew];
   return 0;
 }
-
-// clang -c -F ThirdParty/ main.m
-// ld main.o -framework Foundation -F ThirdParty/ -framework CoffeeKit <- linker
