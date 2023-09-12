@@ -27,7 +27,7 @@ we have several way to solve this.
 1. we create the static library, and then compiled the main.swift with the library
     - `swiftc main.swift -I customswift/ -L customswift/ -lLogger`
 2. if we doesn't want to create as a static library, we can emit the Logger.o (object), and then we compile the main.swift seperately to produce the main.o
-    - `swiftc -I customswift/ -c main.swift -o main.o`
+    - `swiftc -c main.swift -o main.o`
     - `swiftc main.o customswift/Logger.o -o main`
 
 ## Tutorial Objc Interop:

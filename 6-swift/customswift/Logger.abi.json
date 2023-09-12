@@ -1,0 +1,111 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Logger"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Logger"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Logger"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Logger",
+      "printedName": "Logger",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "prefix",
+          "printedName": "prefix",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6LoggerAAC6prefixSSvp",
+          "mangledName": "$s6LoggerAAC6prefixSSvp",
+          "moduleName": "Logger",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logger.Logger",
+              "usr": "s:6LoggerAAC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6LoggerAACyABSScfc",
+          "mangledName": "$s6LoggerAACyABSScfc",
+          "moduleName": "Logger",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "log",
+          "printedName": "log(object:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6LoggerAAC3log6objectyx_tlF",
+          "mangledName": "$s6LoggerAAC3log6objectyx_tlF",
+          "moduleName": "Logger",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<T>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:6LoggerAAC",
+      "mangledName": "$s6LoggerAAC",
+      "moduleName": "Logger"
+    }
+  ],
+  "json_format_version": 6
+}

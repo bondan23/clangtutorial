@@ -6,7 +6,8 @@ import Foundation
 ///
 public class Logger
 {
-    var prefix: String
+    @usableFromInline
+    internal var prefix: String
     
     public init(_ prefix: String)
     {
@@ -14,9 +15,10 @@ public class Logger
     }
     
     /// Prints `object` with prefix
+    @inlinable
     public func log<T>(object: T)
     {
-        print(prefix)
+        print("This Is Prefix \(prefix)")
         print(object)
     }
 }
